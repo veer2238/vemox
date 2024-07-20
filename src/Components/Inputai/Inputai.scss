@@ -1,0 +1,81 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 88vh;
+    gap: 20px;
+    width: 70%;
+    position: relative;
+    margin: 20px auto; 
+    .heading{
+      opacity: .3;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    .loader{
+      position: absolute; 
+      left: 20px;
+      bottom: 20px;
+      background-color: rgb(106, 106, 106);
+      padding: 10px;
+      border-radius: 20px;
+      color: white;
+    }
+  
+    .ques {
+      position: absolute; 
+      right: 20px;
+      bottom: 80px;
+      background-color: rgb(106, 106, 106);
+      padding: 10px;
+      border-radius: 20px;
+      color: white;
+    }
+    .ans {
+      position: absolute; 
+      left: 20px;
+      margin-top: 10px;
+      bottom: 20px;
+      background-color: rgb(106, 106, 106);
+      padding: 10px;
+      border-radius: 20px;
+      color: white;
+      max-width: 500px;
+    }
+  
+    .inp_btn {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%); 
+      width: 70%;
+      display: flex;
+      align-items: center;
+      background-color: white; 
+      border: .6px solid black; 
+      border-radius: 10px; 
+  
+      input {
+        padding: 10px;
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+      }
+  
+      span {
+        position: absolute;
+        right: 10px; // Adjusted for spacing
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 22px;
+        cursor: pointer;
+      }
+    }
+  }
+  

@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  
+}
+
+.question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.answer {
+    width: fit-content;
+    font-size: 1rem;
+    color: green;
+    margin: 0 0 20px 0;
+}
